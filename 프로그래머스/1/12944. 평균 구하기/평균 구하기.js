@@ -1,7 +1,7 @@
 function solution(arr) {
-    var answer = 0;
-    for(let i = 0; i < arr.length; i++) {
-        answer += arr[i]
+    let plus = 0;
+    for(let i = 0; i < arr.length; i++){
+        plus += arr[i]
     }
-    return answer / arr.length;
+    return plus / arr.length;
 }
